@@ -42,7 +42,6 @@ class ShoppingDaoTest {
         database.close()
     }
 
-
     @Test
     fun insertShoppingItem() = runBlockingTest {
         val shoppingItem = ShoppingItem("name", 1, 1f, "url", id = 1)
@@ -78,8 +77,4 @@ class ShoppingDaoTest {
 
         assertThat(totalPriceSum).isEqualTo(2 * 10f + 4 * 5.5f)
     }
-
-
-
-
 }

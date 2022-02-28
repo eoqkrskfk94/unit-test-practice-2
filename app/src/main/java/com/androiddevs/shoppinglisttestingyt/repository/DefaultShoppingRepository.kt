@@ -43,6 +43,4 @@ class DefaultShoppingRepository @Inject constructor(
             Resource.error("Couldn't reach the server. Check your internet connection", null)
         }
     }
-
-
 }
