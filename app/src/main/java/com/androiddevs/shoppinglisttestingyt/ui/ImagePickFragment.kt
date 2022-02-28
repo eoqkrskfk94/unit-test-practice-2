@@ -13,5 +13,6 @@ class ImagePickFragment : Fragment(R.layout.fragment_image_pick) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(requireActivity()).get(ShoppingViewModel::class.java)
+
     }
 }
